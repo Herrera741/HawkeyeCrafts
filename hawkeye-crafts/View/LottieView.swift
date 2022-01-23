@@ -10,13 +10,18 @@ import Lottie
 
 struct LottieView: UIViewRepresentable {
     
-    typealias UIViewType = UIView
-    var filename: String
+    @Binding var showAnimation: Bool
+    var animationFile: String
     
     func makeUIView(context: UIViewRepresentableContext<LottieView>) -> UIView {
         
-        let lottieAnimationView = AnimationView(name: filename)
-        lottieAnimationView.play()
+        let lottieAnimationView = AnimationView(name: animationFile)
+        lottieAnimationView.loopMode = .playOnce
+        lottieAnimationView.play { complete in
+            if complete {
+                showAnimation.toggle()
+            }
+        }
         
         return lottieAnimationView
     }

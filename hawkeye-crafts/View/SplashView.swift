@@ -9,43 +9,37 @@ import SwiftUI
 
 struct SplashView: View {
     
-    @State var isAnimationActive: Bool = false
+    @State var showAnimation = true
+    let plantAnimation = "flying-plant"
     
     var body: some View {
         
         ZStack {
             
             Color("hc-blue").ignoresSafeArea()
-            
-            if self.isAnimationActive {
-                LoginView()
-                
-            } else {
-                
-                
+
+            if showAnimation {
                 GeometryReader { geo in
-                    let stoolImgOffsetY = (geo.size.height * 0.5) + 90
-                    let stoolImgOffsetX = (geo.size.width * 0.5)
-                    let plantOffsetY = stoolImgOffsetY - 230
+                    let stoolImgPosY = (geo.size.height * 0.5) + 90
+                    let stoolImgPosX = (geo.size.width * 0.5)
+                    let plantPosY = stoolImgPosY - 230
                     
                     Image("wood-stool")
                         .scaleEffect(0.8)
-                        .position(x: stoolImgOffsetX, y: stoolImgOffsetY)
+                        .position(x: stoolImgPosX, y: stoolImgPosY)
                         .overlay(alignment: .center, content: {
-                            LottieView(filename: "flying-plant")
+        //                        LottieView(animationFile: flyingPlantAnimation)
+                            LottieView(showAnimation: $showAnimation, animationFile: plantAnimation)
                                 .frame(width: 250, height: 250)
                                 .scaleEffect(0.75)
-                                .position(x: stoolImgOffsetX, y: plantOffsetY)})
-                }
+                                .position(x: stoolImgPosX, y: plantPosY)})
+                } // end GeometryReader
             }
+            else {
+                LoginView()
+            }
+
         } // end ZStack
-        .onAppear {
-            DispatchQueue.main
-                .asyncAfter(deadline: .now() + 8) {
-                    self.isAnimationActive = true
-                }
-        }
-        
     } // end body
 }
 
