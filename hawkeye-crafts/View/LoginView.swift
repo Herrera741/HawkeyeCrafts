@@ -16,7 +16,8 @@ struct LoginView: View {
     var body: some View {
         
         ZStack(alignment: .center) {
-            LinearGradient(gradient: Gradient(colors: [Color("hc-pink"), .white, Color("hc-blue")]),
+            LinearGradient(gradient: Gradient(colors:
+                                                [Color("hc-blue"), .white, Color("hc-pink")]),
                 startPoint: .top,
                 endPoint: .bottom)
                 .ignoresSafeArea()
