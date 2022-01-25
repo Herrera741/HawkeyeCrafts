@@ -28,7 +28,6 @@ struct SplashView: View {
                         .scaleEffect(0.8)
                         .position(x: stoolImgPosX, y: stoolImgPosY)
                         .overlay(alignment: .center, content: {
-        //                        LottieView(animationFile: flyingPlantAnimation)
                             LottieView(showAnimation: $showAnimation, animationFile: plantAnimation)
                                 .frame(width: 250, height: 250)
                                 .scaleEffect(0.75)
