@@ -34,9 +34,9 @@ struct SplashView: View {
                                 .position(x: stoolImgPosX, y: plantPosY)})
                 } // end GeometryReader
             }
-            else {
-                LoginView()
-            }
+//            else {
+//                LoginView()
+//            }
 
         } // end ZStack
     } // end body
