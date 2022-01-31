@@ -17,7 +17,7 @@ struct ContentView: View {
             HomeScreen()
         }
         else {
-            LoginView(isLoggedIn: $isLoggedIn)
+            LoginScreen(isLoggedIn: $isLoggedIn)
         }
         
     }

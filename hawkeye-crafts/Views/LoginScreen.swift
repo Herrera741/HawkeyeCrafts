@@ -1,5 +1,5 @@
 //
-//  LoginView.swift
+//  LoginScreen.swift
 //  hawkeye-crafts
 //
 //  Created by Sergio Herrera on 1/22/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct LoginScreen: View {
     
     @State private var email = ""
     @State private var password = ""
@@ -110,6 +110,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(isLoggedIn: .constant(false))
+        LoginScreen(isLoggedIn: .constant(false))
     }
 }

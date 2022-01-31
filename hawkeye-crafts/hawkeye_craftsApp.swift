@@ -11,7 +11,7 @@ import SwiftUI
 struct hawkeye_craftsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PreLaunch()
         }
     }
 }
