@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State var isLoggedIn = false
+    
     var body: some View {
-        SplashView()
+        
+        if isLoggedIn {
+            HomeScreen()
+        }
+        else {
+            LoginView(isLoggedIn: $isLoggedIn)
+        }
+        
     }
 }
 

@@ -12,6 +12,7 @@ struct LoginView: View {
     @State private var email = ""
     @State private var password = ""
     @State private var isSecured = true
+    @Binding var isLoggedIn: Bool
     
     var body: some View {
         
@@ -76,7 +77,9 @@ struct LoginView: View {
                     })
                 } // end overlay
                     
-                Button(action: {}, label: {
+                Button(action: {
+                    isLoggedIn.toggle()
+                }, label: {
                     Text("Login")
                         .font(.title2)
                         .foregroundColor(Color.white)
@@ -107,6 +110,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        LoginView(isLoggedIn: .constant(false))
     }
 }
