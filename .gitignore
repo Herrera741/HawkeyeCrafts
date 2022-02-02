@@ -4,7 +4,7 @@
 
 ## Xcode Patch ##
 *.xcodeproj/*
-!*.xcodeproj/project.pbxproj
+#!*.xcodeproj/project.pbxproj
 !*.xcodeproj/xcshareddata/
 !*.xcodeproj/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
