@@ -4,7 +4,6 @@
 //
 //  Created by Sergio Herrera on 1/24/22.
 //
-
 import SwiftUI
 
 struct SearchView: View {
