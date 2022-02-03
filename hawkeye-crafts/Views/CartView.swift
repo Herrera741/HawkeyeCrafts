@@ -13,7 +13,6 @@ struct CartView: View {
         ZStack {
             
             Color.green
-                .ignoresSafeArea()
             
             Text("Cart View")
                 .font(.system(size: 36, weight: .bold, design: .default))

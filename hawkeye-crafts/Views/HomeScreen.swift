@@ -8,9 +8,13 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        
-        Text("Home Screen").font(.title)
-        
+        ZStack {
+            
+            Color.yellow
+            
+            Text("Home Screen")
+                .font(.system(size: 36, weight: .bold, design: .default))
+        }
     }
 }
 

@@ -13,7 +13,6 @@ struct AccountView: View {
         ZStack {
             
             Color.orange
-                .ignoresSafeArea()
             
             Text("Account View")
                 .font(.system(size: 36, weight: .bold, design: .default))

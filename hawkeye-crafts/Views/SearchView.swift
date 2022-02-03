@@ -12,7 +12,6 @@ struct SearchView: View {
         ZStack {
             
             Color.yellow
-                .ignoresSafeArea()
             
             Text("Search View")
                 .font(.system(size: 36, weight: .bold, design: .default))
