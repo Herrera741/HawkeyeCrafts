@@ -26,6 +26,8 @@
 		B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F9511327ABADCC000D7F5A /* Assets.xcassets */; };
 		B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */; };
 		B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F9512027AF93FA000D7F5A /* flying-plant.json */; };
+		B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */; };
+		B4F9512527AFDD9C000D7F5A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9512427AFDD9C000D7F5A /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +70,8 @@
 		B4F9511727ABAF14000D7F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
 		B4F9512027AF93FA000D7F5A /* flying-plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flying-plant.json"; sourceTree = "<group>"; };
+		B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarHeader.swift; sourceTree = "<group>"; };
+		B4F9512427AFDD9C000D7F5A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				B4F9510927AB5B67000D7F5A /* FavoritesView.swift */,
 				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
 				B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */,
+				B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */,
+				B4F9512427AFDD9C000D7F5A /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +338,8 @@
 				B4F9510A27AB5B67000D7F5A /* FavoritesView.swift in Sources */,
 				B4F9510C27AB5DE4000D7F5A /* HomeScreen.swift in Sources */,
 				B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */,
+				B4F9512527AFDD9C000D7F5A /* SearchBar.swift in Sources */,
+				B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */,
 				B4F9510E27AB5E15000D7F5A /* PreLaunch.swift in Sources */,
 				B4F9510027AB5246000D7F5A /* hawkeye_craftsApp.swift in Sources */,
 				B4F9510227AB52C5000D7F5A /* LoginScreen.swift in Sources */,

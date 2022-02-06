@@ -8,18 +8,19 @@ import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
-        ZStack {
+        
+        VStack {
             
-            Color.yellow
+            NavBarHeader()
             
-            Text("Home Screen")
-                .font(.system(size: 36, weight: .bold, design: .default))
         }
+        
     }
 }
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
         HomeScreen()
+            .previewLayout(.sizeThatFits)
     }
 }
