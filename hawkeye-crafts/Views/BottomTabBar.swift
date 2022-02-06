@@ -21,28 +21,31 @@ struct BottomTabBar: View {
                 HomeScreen()
                     .tabItem {
                         Image(systemName: "house.fill")
+                        Text("Home")
                     }
-//                        .padding()
                 
                 FavoritesView()
                     .tabItem {
-                        Image(systemName: "bookmark.fill")
+                        Image(systemName: "heart")
+                        Text("Favorites")
                     }
                 
                 CartView()
                     .tabItem {
                         Image(systemName: "cart.fill")
+                        Text("Cart")
                     }
                 
                 AccountView()
                     .tabItem {
                         Image(systemName: "person.fill")
+                        Text("Account")
                     }
             } //: TabView
+
             .accentColor(.blue)
-        }
-        
-    }
+        } //: ZStack
+    } //: body
 }
 
 struct BottomTabBar_Previews: PreviewProvider {
