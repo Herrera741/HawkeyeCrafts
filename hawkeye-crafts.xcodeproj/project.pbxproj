@@ -25,6 +25,7 @@
 		B4F9511227AB5F69000D7F5A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9511127AB5F69000D7F5A /* LottieView.swift */; };
 		B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F9511327ABADCC000D7F5A /* Assets.xcassets */; };
 		B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */; };
+		B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F9512027AF93FA000D7F5A /* flying-plant.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +66,8 @@
 		B4F9511127AB5F69000D7F5A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		B4F9511327ABADCC000D7F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Apps/Assets.xcassets; sourceTree = "<group>"; };
 		B4F9511727ABAF14000D7F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B4F9511A27ABAFF9000D7F5A /* flying-plant.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "flying-plant.json"; sourceTree = "<group>"; };
 		B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		B4F9512027AF93FA000D7F5A /* flying-plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flying-plant.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,7 +174,7 @@
 		B498F72F279FCBF300803D72 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				B4F9511A27ABAFF9000D7F5A /* flying-plant.json */,
+				B4F9512027AF93FA000D7F5A /* flying-plant.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -297,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */,
 				B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */,
 				B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */,
 			);
