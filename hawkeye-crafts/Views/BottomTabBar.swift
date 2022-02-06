@@ -13,38 +13,33 @@ struct BottomTabBar: View {
     
     var body: some View {
         
-        ZStack(alignment: .bottom) {
+
+        TabView {
+            HomeScreen()
+                .tabItem {
+                    Image(systemName: "house.fill")
+                    Text("Home")
+                }
             
-            Color(.systemGray3)
-
-            TabView {
-                HomeScreen()
-                    .tabItem {
-                        Image(systemName: "house.fill")
-                        Text("Home")
-                    }
-                
-                FavoritesView()
-                    .tabItem {
-                        Image(systemName: "heart")
-                        Text("Favorites")
-                    }
-                
-                CartView()
-                    .tabItem {
-                        Image(systemName: "cart.fill")
-                        Text("Cart")
-                    }
-                
-                AccountView()
-                    .tabItem {
-                        Image(systemName: "person.fill")
-                        Text("Account")
-                    }
-            } //: TabView
-
-            .accentColor(.blue)
-        } //: ZStack
+            FavoritesView()
+                .tabItem {
+                    Image(systemName: "heart")
+                    Text("Favorites")
+                }
+            
+            CartView()
+                .tabItem {
+                    Image(systemName: "cart.fill")
+                    Text("Cart")
+                }
+            
+            AccountView()
+                .tabItem {
+                    Image(systemName: "person.fill")
+                    Text("Account")
+                }
+        } //: TabView
+        .accentColor(.blue)
     } //: body
 }
 
