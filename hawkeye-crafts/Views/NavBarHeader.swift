@@ -10,24 +10,45 @@ import SwiftUI
 struct NavBarHeader: View {
     
     @State var searchText = ""
+    @State var searching = false
+    let searchBarOffsetY: CGFloat = 55
+    let fullScreenWidth = UIScreen.main.bounds.width
+    let halfScreenWidth = UIScreen.main.bounds.width * 0.5
     
     var body: some View {
             
-        HStack {
-            Text("Hawkeye Crafts")
-                .font(.title2)
-                .fontWeight(.semibold)
-                .padding(.leading, 10)
+        VStack(alignment: .center) {
             
-            Spacer()
-            
-            SearchBar(searchText: $searchText)
-                .padding(.horizontal, 10)
-        }
-        .padding(.top, 45)
-        .padding(.bottom, 15)
+            HStack {
+                HStack {
+                    Text("Hawkeye Crafts")
+                        .font(.title2)
+                        .fontWeight(.semibold)
+                }
+                .frame(width: halfScreenWidth)
+                .offset(x: searching ? halfScreenWidth : 0)
+                .padding(.leading, searching ? 0 : 5)
+                
+                if !searching {
+                    Spacer()
+                }
+                
+                
+                SearchBar(searchText: $searchText, searching: $searching)
+                    .padding(.trailing, 10)
+                    .offset(x: searching ? -halfScreenWidth * 0.5 : 0 , y: searching ? searchBarOffsetY : 0)
+                    .frame(width: searching ? fullScreenWidth - 10 : halfScreenWidth * 0.7, height: 40)
+                    .onTapGesture {
+                        withAnimation(Animation.easeInOut) {
+                            searching.toggle()
+                        }
+                    }
+            } //: HStack
+        } //: VStack
+        .frame(width: fullScreenWidth, height: searching ? 80 : 40)
+        .padding(.top, searching ? 0 : 8)
+        .padding(.bottom, searching ? searchBarOffsetY : 20)
         .background(Color("hc-blue"))
-        .ignoresSafeArea()
         
     } //: body
 }
