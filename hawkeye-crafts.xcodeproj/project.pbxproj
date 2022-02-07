@@ -161,18 +161,17 @@
 		B498F72C279FCAF000803D72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B4F9511B27ABB8EE000D7F5A /* Splash */,
+				B4F9512627B119C3000D7F5A /* Header */,
 				B498F724279FCA9E00803D72 /* ContentView.swift */,
 				B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */,
 				B4F9510F27AB5E41000D7F5A /* SearchView.swift */,
 				B4F9510127AB52C5000D7F5A /* LoginScreen.swift */,
-				B4F9511B27ABB8EE000D7F5A /* Splash */,
 				B4F9510527AB566C000D7F5A /* AccountView.swift */,
 				B4F9510727AB5A8B000D7F5A /* CartView.swift */,
 				B4F9510927AB5B67000D7F5A /* FavoritesView.swift */,
 				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
 				B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */,
-				B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */,
-				B4F9512427AFDD9C000D7F5A /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +191,15 @@
 				B4F9511127AB5F69000D7F5A /* LottieView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		B4F9512627B119C3000D7F5A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */,
+				B4F9512427AFDD9C000D7F5A /* SearchBar.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
