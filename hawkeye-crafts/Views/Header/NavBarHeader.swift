@@ -22,10 +22,10 @@ struct NavBarHeader: View {
             HStack {
                 HStack {
                     Text("Hawkeye Crafts")
-                        .font(.title2)
+                        .font(searching ? .title : .title2)
                         .fontWeight(.semibold)
                 }
-                .frame(width: halfScreenWidth)
+                .frame(width: searching ? fullScreenWidth : halfScreenWidth)
                 .offset(x: searching ? halfScreenWidth : 0)
                 .padding(.leading, searching ? 0 : 5)
                 
@@ -36,7 +36,7 @@ struct NavBarHeader: View {
                 
                 SearchBar(searchText: $searchText, searching: $searching)
                     .padding(.trailing, 10)
-                    .offset(x: searching ? -halfScreenWidth * 0.5 : 0 , y: searching ? searchBarOffsetY : 0)
+                    .offset(x: searching ? -halfScreenWidth : 0 , y: searching ? searchBarOffsetY : 0)
                     .frame(width: searching ? fullScreenWidth - 10 : halfScreenWidth * 0.7, height: 40)
                     .onTapGesture {
                         withAnimation(Animation.easeInOut) {
