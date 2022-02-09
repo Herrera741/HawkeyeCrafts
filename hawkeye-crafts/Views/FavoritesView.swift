@@ -13,7 +13,6 @@ struct FavoritesView: View {
         ZStack {
             
             Color.red
-                .ignoresSafeArea()
             
             Text("Favorites View")
                 .font(.system(size: 36, weight: .bold, design: .default))

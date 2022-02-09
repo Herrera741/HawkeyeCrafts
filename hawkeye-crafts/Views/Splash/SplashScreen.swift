@@ -21,7 +21,7 @@ struct SplashScreen: View {
             GeometryReader { geo in
                 let stoolImgPosY = (geo.size.height * 0.5) + 90
                 let stoolImgPosX = (geo.size.width * 0.5)
-                let plantPosY = stoolImgPosY - 215
+                let plantPosY = stoolImgPosY - 230
                 
                 
                 Image("wood-stool")

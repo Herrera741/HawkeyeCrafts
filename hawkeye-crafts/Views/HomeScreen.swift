@@ -4,13 +4,19 @@
 //
 //  Created by Sergio Herrera on 1/30/22.
 //
-
 import SwiftUI
 
 struct HomeScreen: View {
     var body: some View {
         
-        Text("Home Screen").font(.title)
+        VStack {
+            
+            NavBarHeader()
+            
+            Spacer()
+        
+            
+        } //: VStack
         
     }
 }
@@ -18,5 +24,6 @@ struct HomeScreen: View {
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
         HomeScreen()
+//            .previewLayout(.sizeThatFits)
     }
 }

@@ -7,18 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B48CA357279BF62A00D36B01 /* hawkeye_craftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA356279BF62A00D36B01 /* hawkeye_craftsApp.swift */; };
-		B48CA35B279BF63100D36B01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CA35A279BF63100D36B01 /* Assets.xcassets */; };
 		B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */; };
 		B48CA368279BF63100D36B01 /* hawkeye_craftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA367279BF63100D36B01 /* hawkeye_craftsTests.swift */; };
 		B48CA372279BF63200D36B01 /* hawkeye_craftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA371279BF63200D36B01 /* hawkeye_craftsUITests.swift */; };
 		B48CA374279BF63200D36B01 /* hawkeye_craftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA373279BF63200D36B01 /* hawkeye_craftsUITestsLaunchTests.swift */; };
 		B498F723279FCA7600803D72 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B498F722279FCA7600803D72 /* Lottie */; };
 		B498F725279FCA9E00803D72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498F724279FCA9E00803D72 /* ContentView.swift */; };
-		B498F729279FCAD500803D72 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498F726279FCAD500803D72 /* SplashView.swift */; };
-		B498F72A279FCAD500803D72 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498F727279FCAD500803D72 /* LoginView.swift */; };
-		B498F72B279FCAD500803D72 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B498F728279FCAD500803D72 /* LottieView.swift */; };
-		B498F72E279FCBBF00803D72 /* flying-plant.json in Resources */ = {isa = PBXBuildFile; fileRef = B498F72D279FCBBF00803D72 /* flying-plant.json */; };
+		B4F9510027AB5246000D7F5A /* hawkeye_craftsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F950FF27AB5246000D7F5A /* hawkeye_craftsApp.swift */; };
+		B4F9510227AB52C5000D7F5A /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510127AB52C5000D7F5A /* LoginScreen.swift */; };
+		B4F9510427AB5405000D7F5A /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510327AB5405000D7F5A /* SplashScreen.swift */; };
+		B4F9510627AB566C000D7F5A /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510527AB566C000D7F5A /* AccountView.swift */; };
+		B4F9510827AB5A8B000D7F5A /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510727AB5A8B000D7F5A /* CartView.swift */; };
+		B4F9510A27AB5B67000D7F5A /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510927AB5B67000D7F5A /* FavoritesView.swift */; };
+		B4F9510C27AB5DE4000D7F5A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */; };
+		B4F9510E27AB5E15000D7F5A /* PreLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */; };
+		B4F9511027AB5E41000D7F5A /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9510F27AB5E41000D7F5A /* SearchView.swift */; };
+		B4F9511227AB5F69000D7F5A /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9511127AB5F69000D7F5A /* LottieView.swift */; };
+		B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4F9511327ABADCC000D7F5A /* Assets.xcassets */; };
+		B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */; };
+		B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */ = {isa = PBXBuildFile; fileRef = B4F9512027AF93FA000D7F5A /* flying-plant.json */; };
+		B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */; };
+		B4F9512527AFDD9C000D7F5A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F9512427AFDD9C000D7F5A /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +49,6 @@
 
 /* Begin PBXFileReference section */
 		B48CA353279BF62A00D36B01 /* hawkeye-crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hawkeye-crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B48CA356279BF62A00D36B01 /* hawkeye_craftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkeye_craftsApp.swift; sourceTree = "<group>"; };
-		B48CA35A279BF63100D36B01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B48CA363279BF63100D36B01 /* hawkeye-craftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hawkeye-craftsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CA367279BF63100D36B01 /* hawkeye_craftsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkeye_craftsTests.swift; sourceTree = "<group>"; };
@@ -49,11 +56,22 @@
 		B48CA371279BF63200D36B01 /* hawkeye_craftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkeye_craftsUITests.swift; sourceTree = "<group>"; };
 		B48CA373279BF63200D36B01 /* hawkeye_craftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkeye_craftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B498F724279FCA9E00803D72 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B498F726279FCAD500803D72 /* SplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		B498F727279FCAD500803D72 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		B498F728279FCAD500803D72 /* LottieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
-		B498F72D279FCBBF00803D72 /* flying-plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "flying-plant.json"; path = "../../../../Downloads/flying-plant.json"; sourceTree = "<group>"; };
-		B498F731279FCC2300803D72 /* flying-plant.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "flying-plant.json"; sourceTree = "<group>"; };
+		B4F950FF27AB5246000D7F5A /* hawkeye_craftsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawkeye_craftsApp.swift; sourceTree = "<group>"; };
+		B4F9510127AB52C5000D7F5A /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		B4F9510327AB5405000D7F5A /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		B4F9510527AB566C000D7F5A /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		B4F9510727AB5A8B000D7F5A /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B4F9510927AB5B67000D7F5A /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreLaunch.swift; sourceTree = "<group>"; };
+		B4F9510F27AB5E41000D7F5A /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		B4F9511127AB5F69000D7F5A /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		B4F9511327ABADCC000D7F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Apps/Assets.xcassets; sourceTree = "<group>"; };
+		B4F9511727ABAF14000D7F5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabBar.swift; sourceTree = "<group>"; };
+		B4F9512027AF93FA000D7F5A /* flying-plant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "flying-plant.json"; sourceTree = "<group>"; };
+		B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarHeader.swift; sourceTree = "<group>"; };
+		B4F9512427AFDD9C000D7F5A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +123,11 @@
 		B48CA355279BF62A00D36B01 /* hawkeye-crafts */ = {
 			isa = PBXGroup;
 			children = (
-				B48CA356279BF62A00D36B01 /* hawkeye_craftsApp.swift */,
+				B4F9511727ABAF14000D7F5A /* Info.plist */,
+				B4F950FF27AB5246000D7F5A /* hawkeye_craftsApp.swift */,
+				B4F9511327ABADCC000D7F5A /* Assets.xcassets */,
 				B498F72C279FCAF000803D72 /* Views */,
-				B48CA35A279BF63100D36B01 /* Assets.xcassets */,
 				B498F72F279FCBF300803D72 /* Lottie */,
-				B498F72D279FCBBF00803D72 /* flying-plant.json */,
 				B48CA35C279BF63100D36B01 /* Preview Content */,
 			);
 			path = "hawkeye-crafts";
@@ -143,10 +161,17 @@
 		B498F72C279FCAF000803D72 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B4F9511B27ABB8EE000D7F5A /* Splash */,
+				B4F9512627B119C3000D7F5A /* Header */,
 				B498F724279FCA9E00803D72 /* ContentView.swift */,
-				B498F727279FCAD500803D72 /* LoginView.swift */,
-				B498F728279FCAD500803D72 /* LottieView.swift */,
-				B498F726279FCAD500803D72 /* SplashView.swift */,
+				B4F9511E27ABBC92000D7F5A /* BottomTabBar.swift */,
+				B4F9510F27AB5E41000D7F5A /* SearchView.swift */,
+				B4F9510127AB52C5000D7F5A /* LoginScreen.swift */,
+				B4F9510527AB566C000D7F5A /* AccountView.swift */,
+				B4F9510727AB5A8B000D7F5A /* CartView.swift */,
+				B4F9510927AB5B67000D7F5A /* FavoritesView.swift */,
+				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
+				B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -154,9 +179,27 @@
 		B498F72F279FCBF300803D72 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				B498F731279FCC2300803D72 /* flying-plant.json */,
+				B4F9512027AF93FA000D7F5A /* flying-plant.json */,
 			);
 			path = Lottie;
+			sourceTree = "<group>";
+		};
+		B4F9511B27ABB8EE000D7F5A /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9510327AB5405000D7F5A /* SplashScreen.swift */,
+				B4F9511127AB5F69000D7F5A /* LottieView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B4F9512627B119C3000D7F5A /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9512227AFC4B8000D7F5A /* NavBarHeader.swift */,
+				B4F9512427AFDD9C000D7F5A /* SearchBar.swift */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +312,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */,
+				B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */,
 				B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */,
-				B498F72E279FCBBF00803D72 /* flying-plant.json in Resources */,
-				B48CA35B279BF63100D36B01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +339,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B48CA357279BF62A00D36B01 /* hawkeye_craftsApp.swift in Sources */,
+				B4F9510627AB566C000D7F5A /* AccountView.swift in Sources */,
+				B4F9510827AB5A8B000D7F5A /* CartView.swift in Sources */,
+				B4F9510427AB5405000D7F5A /* SplashScreen.swift in Sources */,
 				B498F725279FCA9E00803D72 /* ContentView.swift in Sources */,
-				B498F72B279FCAD500803D72 /* LottieView.swift in Sources */,
-				B498F72A279FCAD500803D72 /* LoginView.swift in Sources */,
-				B498F729279FCAD500803D72 /* SplashView.swift in Sources */,
+				B4F9510A27AB5B67000D7F5A /* FavoritesView.swift in Sources */,
+				B4F9510C27AB5DE4000D7F5A /* HomeScreen.swift in Sources */,
+				B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */,
+				B4F9512527AFDD9C000D7F5A /* SearchBar.swift in Sources */,
+				B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */,
+				B4F9510E27AB5E15000D7F5A /* PreLaunch.swift in Sources */,
+				B4F9510027AB5246000D7F5A /* hawkeye_craftsApp.swift in Sources */,
+				B4F9510227AB52C5000D7F5A /* LoginScreen.swift in Sources */,
+				B4F9511227AB5F69000D7F5A /* LottieView.swift in Sources */,
+				B4F9511027AB5E41000D7F5A /* SearchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,9 +516,9 @@
 				DEVELOPMENT_TEAM = ZJUQAVTLY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hawkeye-crafts/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -493,9 +545,9 @@
 				DEVELOPMENT_TEAM = ZJUQAVTLY7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hawkeye-crafts/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

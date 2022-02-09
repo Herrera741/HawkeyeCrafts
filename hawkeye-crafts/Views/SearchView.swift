@@ -4,7 +4,6 @@
 //
 //  Created by Sergio Herrera on 1/24/22.
 //
-
 import SwiftUI
 
 struct SearchView: View {
@@ -13,7 +12,6 @@ struct SearchView: View {
         ZStack {
             
             Color.yellow
-                .ignoresSafeArea()
             
             Text("Search View")
                 .font(.system(size: 36, weight: .bold, design: .default))

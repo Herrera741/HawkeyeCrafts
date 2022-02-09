@@ -3,8 +3,8 @@
 /*.gcno
 
 ## Xcode Patch ##
-*.xcodeproj/*
+#*.xcodeproj/*
 #!*.xcodeproj/project.pbxproj
-!*.xcodeproj/xcshareddata/
-!*.xcodeproj/contents.xcworkspacedata
+#!*.xcodeproj/xcshareddata/
+#!*.xcodeproj/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
