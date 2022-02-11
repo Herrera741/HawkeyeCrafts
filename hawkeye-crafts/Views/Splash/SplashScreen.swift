@@ -24,7 +24,7 @@ struct SplashScreen: View {
                 let plantPosY = stoolImgPosY - 230
                 
                 
-                Image("wood-stool")
+                Image("splash-stool")
                     .scaleEffect(0.8)
                     .position(x: showAnimation ? stoolImgPosX : stoolImgPosX + 300, y: stoolImgPosY)
                     .zIndex(1)
