@@ -11,6 +11,7 @@
 		B47D18AC27B6991A00D01492 /* PlantStoolsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */; };
 		B47D18B127BB7DE100D01492 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */; };
 		B47D18B327BB8D7A00D01492 /* FeaturedItemsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B227BB8D7A00D01492 /* FeaturedItemsData.swift */; };
+		B47D18B527BB958900D01492 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B427BB958900D01492 /* FeaturedTabView.swift */; };
 		B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */; };
 		B48CA368279BF63100D36B01 /* hawkeye_craftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA367279BF63100D36B01 /* hawkeye_craftsTests.swift */; };
 		B48CA372279BF63200D36B01 /* hawkeye_craftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA371279BF63200D36B01 /* hawkeye_craftsUITests.swift */; };
@@ -56,6 +57,7 @@
 		B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStoolsData.swift; sourceTree = "<group>"; };
 		B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
 		B47D18B227BB8D7A00D01492 /* FeaturedItemsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemsData.swift; sourceTree = "<group>"; };
+		B47D18B427BB958900D01492 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		B48CA353279BF62A00D36B01 /* hawkeye-crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hawkeye-crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B48CA363279BF63100D36B01 /* hawkeye-craftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hawkeye-craftsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -130,6 +132,7 @@
 			children = (
 				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
 				B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */,
+				B47D18B427BB958900D01492 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 				B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */,
 				B4F9510E27AB5E15000D7F5A /* PreLaunch.swift in Sources */,
 				B4F9510027AB5246000D7F5A /* hawkeye_craftsApp.swift in Sources */,
+				B47D18B527BB958900D01492 /* FeaturedTabView.swift in Sources */,
 				B4F9510227AB52C5000D7F5A /* LoginScreen.swift in Sources */,
 				B47D18AC27B6991A00D01492 /* PlantStoolsData.swift in Sources */,
 				B4F9511227AB5F69000D7F5A /* LottieView.swift in Sources */,
