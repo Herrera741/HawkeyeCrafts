@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B47D18A727B6980C00D01492 /* PlantStoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18A627B6980C00D01492 /* PlantStoolModel.swift */; };
 		B47D18AC27B6991A00D01492 /* PlantStoolsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */; };
+		B47D18B127BB7DE100D01492 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */; };
+		B47D18B327BB8D7A00D01492 /* FeaturedItemsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B227BB8D7A00D01492 /* FeaturedItemsData.swift */; };
 		B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */; };
 		B48CA368279BF63100D36B01 /* hawkeye_craftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA367279BF63100D36B01 /* hawkeye_craftsTests.swift */; };
 		B48CA372279BF63200D36B01 /* hawkeye_craftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA371279BF63200D36B01 /* hawkeye_craftsUITests.swift */; };
@@ -52,6 +54,8 @@
 /* Begin PBXFileReference section */
 		B47D18A627B6980C00D01492 /* PlantStoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStoolModel.swift; sourceTree = "<group>"; };
 		B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantStoolsData.swift; sourceTree = "<group>"; };
+		B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		B47D18B227BB8D7A00D01492 /* FeaturedItemsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemsData.swift; sourceTree = "<group>"; };
 		B48CA353279BF62A00D36B01 /* hawkeye-crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hawkeye-crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B48CA363279BF63100D36B01 /* hawkeye-craftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hawkeye-craftsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,8 +120,18 @@
 			isa = PBXGroup;
 			children = (
 				B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */,
+				B47D18B227BB8D7A00D01492 /* FeaturedItemsData.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		B47D18AD27BB7CE000D01492 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
+				B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		B48CA34A279BF62A00D36B01 = {
@@ -192,7 +206,7 @@
 				B4F9510527AB566C000D7F5A /* AccountView.swift */,
 				B4F9510727AB5A8B000D7F5A /* CartView.swift */,
 				B4F9510927AB5B67000D7F5A /* FavoritesView.swift */,
-				B4F9510B27AB5DE4000D7F5A /* HomeScreen.swift */,
+				B47D18AD27BB7CE000D01492 /* Home */,
 				B4F9510D27AB5E15000D7F5A /* PreLaunch.swift */,
 			);
 			path = Views;
@@ -368,8 +382,10 @@
 				B4F9510A27AB5B67000D7F5A /* FavoritesView.swift in Sources */,
 				B4F9510C27AB5DE4000D7F5A /* HomeScreen.swift in Sources */,
 				B4F9511F27ABBC92000D7F5A /* BottomTabBar.swift in Sources */,
+				B47D18B127BB7DE100D01492 /* FeaturedItemView.swift in Sources */,
 				B47D18A727B6980C00D01492 /* PlantStoolModel.swift in Sources */,
 				B4F9512527AFDD9C000D7F5A /* SearchBar.swift in Sources */,
+				B47D18B327BB8D7A00D01492 /* FeaturedItemsData.swift in Sources */,
 				B4F9512327AFC4B9000D7F5A /* NavBarHeader.swift in Sources */,
 				B4F9510E27AB5E15000D7F5A /* PreLaunch.swift in Sources */,
 				B4F9510027AB5246000D7F5A /* hawkeye_craftsApp.swift in Sources */,
