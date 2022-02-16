@@ -15,9 +15,9 @@ struct FeaturedItemView: View {
         
         Image(plantStool.image)
             .resizable()
-            .frame(width: 300, height: 200)
+            .frame(width: 350)
             .scaledToFit()
-            .cornerRadius(13)
+            .cornerRadius(15)
         
     }
 }

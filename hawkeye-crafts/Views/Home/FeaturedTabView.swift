@@ -13,8 +13,6 @@ struct FeaturedTabView: View {
         TabView {
             ForEach(featuredItemsData) { featItem in
                 FeaturedItemView(plantStool: featItem)
-                        .padding(.top, 15)
-                        .padding(.horizontal, 10)
             }
         } //: TabView
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .always))
