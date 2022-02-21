@@ -21,9 +21,12 @@ struct HomeScreen: View {
                 
                 ScrollView(showsIndicators: false, content: {
                     VStack {
+                        
+                        TitleView(title: "Featured")
+                        
                         FeaturedTabView()
                             .frame(width: UIScreen.main.bounds.width , height: 220)
-                            .padding(.top, 25)
+                            .padding(.top, 5)
                         
                         TitleView(title: "Stools")
                         
