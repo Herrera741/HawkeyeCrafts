@@ -15,7 +15,8 @@ struct TitleView: View {
         
         HStack {
             Text(title)
-                .font(.largeTitle)
+//                .font(.system(size: 25))
+                .font(.title)
                 .fontWeight(.heavy)
             
             Spacer()
