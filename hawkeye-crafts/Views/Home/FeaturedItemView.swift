@@ -17,7 +17,7 @@ struct FeaturedItemView: View {
             .resizable()
             .frame(width: 350)
             .scaledToFit()
-            .cornerRadius(15)
+            .cornerRadius(10)
         
     }
 }
