@@ -7,6 +7,10 @@
 import SwiftUI
 
 struct HomeScreen: View {
+    
+//    private var twoColumnGrid: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+    private var twoColumnGrid: [GridItem] = Array(repeating: GridItem(.flexible(), spacing: 10), count: 2)
+    
     var body: some View {
         
         ZStack {
@@ -16,12 +20,21 @@ struct HomeScreen: View {
                     .padding(.top, 40)
                 
                 ScrollView(showsIndicators: false, content: {
-                    VStack(spacing: 0) {
+                    VStack {
                         FeaturedTabView()
                             .frame(width: UIScreen.main.bounds.width , height: 220)
-                            .padding(.vertical, 30)
-                            .cornerRadius(15)
-                    }
+                            .padding(.top, 25)
+                            .padding(.bottom, 15)
+                        
+                        TitleView(title: "Stools")
+                        
+                        LazyVGrid(columns: twoColumnGrid) {
+                            ForEach(plantStoolsData) { productItem in
+                                ProductItemView(product: productItem)
+                            }
+                        } //: LazyVGrid
+                        .padding(15)
+                    } //: VStack
                 }) //: ScrollView
                 
             } //: VStack
