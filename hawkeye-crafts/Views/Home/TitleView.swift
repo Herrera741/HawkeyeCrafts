@@ -15,7 +15,6 @@ struct TitleView: View {
         
         HStack {
             Text(title)
-//                .font(.system(size: 25))
                 .font(.title)
                 .fontWeight(.heavy)
             
