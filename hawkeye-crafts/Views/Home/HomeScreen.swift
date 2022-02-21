@@ -24,7 +24,6 @@ struct HomeScreen: View {
                         FeaturedTabView()
                             .frame(width: UIScreen.main.bounds.width , height: 220)
                             .padding(.top, 25)
-                            .padding(.bottom, 15)
                         
                         TitleView(title: "Stools")
                         
@@ -33,7 +32,7 @@ struct HomeScreen: View {
                                 ProductItemView(product: productItem)
                             }
                         } //: LazyVGrid
-                        .padding(15)
+                        .padding(.horizontal, 15)
                     } //: VStack
                 }) //: ScrollView
                 
