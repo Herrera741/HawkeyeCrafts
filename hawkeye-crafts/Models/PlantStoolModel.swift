@@ -12,5 +12,5 @@ struct PlantStool: Identifiable {
     var id = UUID()
     var title: String
     var image: String
-    var price: Float
+    var price: Decimal
 }

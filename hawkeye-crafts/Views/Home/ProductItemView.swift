@@ -29,7 +29,7 @@ struct ProductItemView: View {
                 .fontWeight(.heavy)
             
             // product price
-            Text("$120")
+            Text(product.price.formatted(.currency(code: "USD")))
                 .fontWeight(.semibold)
                 .foregroundColor(.blue)
         } //: VStack
