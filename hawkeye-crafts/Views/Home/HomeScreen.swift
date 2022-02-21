@@ -21,10 +21,12 @@ struct HomeScreen: View {
                 
                 ScrollView(showsIndicators: false, content: {
                     VStack {
+                        
+                        TitleView(title: "Featured")
+                        
                         FeaturedTabView()
                             .frame(width: UIScreen.main.bounds.width , height: 220)
-                            .padding(.top, 25)
-                            .padding(.bottom, 15)
+                            .padding(.top, 5)
                         
                         TitleView(title: "Stools")
                         
@@ -33,7 +35,7 @@ struct HomeScreen: View {
                                 ProductItemView(product: productItem)
                             }
                         } //: LazyVGrid
-                        .padding(15)
+                        .padding(.horizontal, 15)
                     } //: VStack
                 }) //: ScrollView
                 
