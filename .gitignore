@@ -8,3 +8,6 @@
 #!*.xcodeproj/xcshareddata/
 #!*.xcodeproj/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
+
+## Google Plist
+GoogleService-Info.plist
