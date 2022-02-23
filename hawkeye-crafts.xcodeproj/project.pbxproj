@@ -14,6 +14,7 @@
 		B47D18B527BB958900D01492 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B427BB958900D01492 /* FeaturedTabView.swift */; };
 		B47D18B727C2C70800D01492 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B627C2C70800D01492 /* TitleView.swift */; };
 		B47D18B927C2CF4000D01492 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B827C2CF4000D01492 /* ProductItemView.swift */; };
+		B47D18BB27C61B4E00D01492 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B47D18BA27C61B4E00D01492 /* GoogleService-Info.plist */; };
 		B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */; };
 		B48CA368279BF63100D36B01 /* hawkeye_craftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA367279BF63100D36B01 /* hawkeye_craftsTests.swift */; };
 		B48CA372279BF63200D36B01 /* hawkeye_craftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48CA371279BF63200D36B01 /* hawkeye_craftsUITests.swift */; };
@@ -62,6 +63,7 @@
 		B47D18B427BB958900D01492 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		B47D18B627C2C70800D01492 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		B47D18B827C2CF4000D01492 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
+		B47D18BA27C61B4E00D01492 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B48CA353279BF62A00D36B01 /* hawkeye-crafts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hawkeye-crafts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48CA35D279BF63100D36B01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B48CA363279BF63100D36B01 /* hawkeye-craftsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hawkeye-craftsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 				B47D18A827B698AE00D01492 /* Data */,
 				B47D18A327B6966800D01492 /* Models */,
 				B4F9511727ABAF14000D7F5A /* Info.plist */,
+				B47D18BA27C61B4E00D01492 /* GoogleService-Info.plist */,
 				B4F950FF27AB5246000D7F5A /* hawkeye_craftsApp.swift */,
 				B4F9511327ABADCC000D7F5A /* Assets.xcassets */,
 				B498F72C279FCAF000803D72 /* Views */,
@@ -358,6 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4F9512127AF93FA000D7F5A /* flying-plant.json in Resources */,
+				B47D18BB27C61B4E00D01492 /* GoogleService-Info.plist in Resources */,
 				B4F9511427ABADCC000D7F5A /* Assets.xcassets in Resources */,
 				B48CA35E279BF63100D36B01 /* Preview Assets.xcassets in Resources */,
 			);
