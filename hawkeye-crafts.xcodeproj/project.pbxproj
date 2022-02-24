@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B408E98C27C7408F001625E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B408E98B27C7408F001625E3 /* FirebaseFirestore */; };
+		B408E98E27C7408F001625E3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = B408E98D27C7408F001625E3 /* FirebaseFirestoreSwift-Beta */; };
 		B47D18A727B6980C00D01492 /* PlantStoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18A627B6980C00D01492 /* PlantStoolModel.swift */; };
 		B47D18AC27B6991A00D01492 /* PlantStoolsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18AB27B6991A00D01492 /* PlantStoolsData.swift */; };
 		B47D18B127BB7DE100D01492 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D18B027BB7DE100D01492 /* FeaturedItemView.swift */; };
@@ -95,7 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B408E98E27C7408F001625E3 /* FirebaseFirestoreSwift-Beta in Frameworks */,
 				B498F723279FCA7600803D72 /* Lottie in Frameworks */,
+				B408E98C27C7408F001625E3 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +272,8 @@
 			name = "hawkeye-crafts";
 			packageProductDependencies = (
 				B498F722279FCA7600803D72 /* Lottie */,
+				B408E98B27C7408F001625E3 /* FirebaseFirestore */,
+				B408E98D27C7408F001625E3 /* FirebaseFirestoreSwift-Beta */,
 			);
 			productName = "hawkeye-crafts";
 			productReference = B48CA353279BF62A00D36B01 /* hawkeye-crafts.app */;
@@ -343,6 +349,7 @@
 			mainGroup = B48CA34A279BF62A00D36B01;
 			packageReferences = (
 				B498F721279FCA7600803D72 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				B408E98A27C7408F001625E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = B48CA354279BF62A00D36B01 /* Products */;
 			projectDirPath = "";
@@ -737,6 +744,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		B408E98A27C7408F001625E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		B498F721279FCA7600803D72 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios";
@@ -748,6 +763,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		B408E98B27C7408F001625E3 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B408E98A27C7408F001625E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B408E98D27C7408F001625E3 /* FirebaseFirestoreSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B408E98A27C7408F001625E3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreSwift-Beta";
+		};
 		B498F722279FCA7600803D72 /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B498F721279FCA7600803D72 /* XCRemoteSwiftPackageReference "lottie-ios" */;
